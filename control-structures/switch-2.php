@@ -20,5 +20,5 @@
             break;
         default:
             echo "Please enter red, green or blue.";
-    }
+    }    
 ?>    
