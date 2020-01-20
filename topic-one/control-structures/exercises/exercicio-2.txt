@@ -1,0 +1,22 @@
+"Ler três valores para os lados de um triângulo, considerando lados como: A, B e C. Verificar se os lados
+fornecidos formam realmente um triângulo. Se for esta condição verdadeira, deve ser indicado qual tipo de
+triângulo foi formado: isósceles, escaleno ou equilátero.”
+
+Algoritmo
+Para se estabelecer esse algoritmo é necessário em primeiro lugar saber o que realmente é um triângulo.
+Triângulo é uma forma geométrica (polígono) composta por três lados, em que cada lado é menor que a
+soma dos outros dois lados. Perceba que esta é uma regra (uma condição) e deve ser considerada. É um
+triângulo quando A < (B + C), quando B < (A + C) e quando C < (A + B).
+
+Tendo certeza de que os valores informados para os três lados formam um triângulo, são então analisados
+os valores para se estabelecer qual tipo de triângulo é formado: isósceles, escaleno ou equilátero.
+Um triângulo é isósceles quando possui dois lados iguais e um diferente, sendo A=B ou A=C ou B=C; é
+escaleno quando possui todos os lados diferentes, sendo A<>B e B<>C e C<>A e é eqüilátero quando
+possui todos os lados iguais, sendo A=B e B=C.
+
+1. Ler três valores para os lados de um triângulo: A, B e C;
+2. Verificar se cada lado é menor que a soma dos outros dois lados;
+a. Se sim, saber se A=B e se B=C sendo verdade, o triângulo é eqüilátero;
+b. Se não, verificar se A=B ou se A=C ou se B=C; sendo verdade, o triângulo é isósceles,
+caso contrário o triângulo é escaleno.
+3. Caso os lados fornecidos não caracterizem um triângulo, avisa a ocorrência. 

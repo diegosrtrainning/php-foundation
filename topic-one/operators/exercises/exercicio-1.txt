@@ -1,0 +1,13 @@
+A) Ler dois valores (inteiros, reais ou caracteres) para as variáveis A e B, e efetuar a troca dos valores de forma que a variável A passe a possuir o valor da variável B e a variável B passe a possuir o valor da variável A. Apresentar os valores trocados
+
+B) Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é F ← (9 * C + 160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius
+
+C) Ler uma temperatura em graus Fahrenheit e apresentá-la convertida em graus Celsius. A fórmula de conversão é C ← (F - 32) * (5/9) , sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
+
+D) Efetuar o cálculo e a apresentação do valor de uma prestação em atraso, utilizando a fórmula
+PRESTACAO ← VALOR + (VALOR * TAXA/100) * TEMPO).
+
+E) Elaborar um programa que efetue a leitura do nome e do sexo de uma pessoa, apresentando com
+saída uma das seguintes mensagens: "Caro Sr.", se o sexo informado como masculino, ou a
+mensagem "Cara Sra.", para o sexo informado como feminino. Apresente também junto da
+mensagem de saudação o nome previamente informado. 
