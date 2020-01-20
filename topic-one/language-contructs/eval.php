@@ -12,9 +12,11 @@
     $varTwo = false;
     $varThree = 'My test';
     $varFour = 0;
+    define('EMPTY', '');    
 
     var_dump(empty($varOne));
     var_dump(empty($varTwo));
     var_dump(empty($varThree));
     var_dump(empty($varFour));
+    var_dump(empty(EMPTY)); //Não é possível fazer empty de CONSTANT
 ?>
