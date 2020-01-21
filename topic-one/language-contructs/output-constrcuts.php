@@ -5,4 +5,6 @@
     // Não é uma language construct, mas uma função equivalente ao echo e necessita de parenteses
     print("print: Olá mundo. \n");
 
+    printf
+
 ?>
