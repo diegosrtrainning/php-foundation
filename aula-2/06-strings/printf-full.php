@@ -25,7 +25,7 @@ $s = 'monkey';
 printf("[%s]\n",      $s); // exibe a string
 printf("[%10s]\n",    $s); // completa com espaços em branco a esquerda, até completar 10 caracteres
 printf("[%-10s]\n",   $s); // completa com espaços em branco a direita, até completar 10 caracteres
-printf("[%010s]\n",   $s); // completa com 0 (zero) a esquerda, até completar 10 caracteres
+printf("[%-010s]\n",   $s); // completa com 0 (zero) a esquerda, até completar 10 caracteres
 printf("[%'#10s]\n",  $s); // completa com # a esquerda até completar 10 caracteres
 
 ?>
